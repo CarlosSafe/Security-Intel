@@ -26,11 +26,8 @@ The next step involved testing the passwords using the list provided by Burp Sui
 
 I observed that every unsuccessful login attempt returned an HTML response containing the message `Incorrect password`. 
 
-
-![Incorrect Password Intruder](../../images/Intruder-Response-Usernames.png)
-
 Therefore, the only correct password would be the one that does not include this message in the response.
 
-![Different Response Found](../../images/Different-Response-Found.png)
+![Different Response Found](../../images/Diffent-Response-Found.png)
 
 As a result, the valid username and password combination was determined to be `adserver`and `moscow`.
